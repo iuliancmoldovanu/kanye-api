@@ -9,8 +9,6 @@ This Laravel application provides a REST API for fetching random Kanye West quot
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Requirements
 
@@ -19,8 +17,8 @@ This Laravel application provides a REST API for fetching random Kanye West quot
 ## Installation
 
    ```bash
-   git clone https://github.com/your-username/kanye-test.git
-   cd kanye-test
+   git clone https://github.com/iuliancmoldovanu/kanye-api.git
+   cd kanye-api
    composer install
 
 
