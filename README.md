@@ -33,8 +33,6 @@ This Laravel application provides a REST API for fetching random Kanye West quot
 ```
 
 ## Configuration
-
-    Download and install Postman
     import KanyeAPI.postman.json file from root directory into the Postman App
 
 ## Usage
@@ -44,7 +42,7 @@ This Laravel application provides a REST API for fetching random Kanye West quot
 
     sail up -d
 ```
-    send API request using the 2 endpoints - get and refresh quotes
+    send API request using the 2 endpoints imported into Postman - get and refresh quotes
 
 ## Testing
 
