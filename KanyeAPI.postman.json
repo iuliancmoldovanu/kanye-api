@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "843ac1b5-6882-4934-bd6d-1aa8c08cddc4",
+		"name": "KanyeAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9827872"
+	},
+	"item": [
+		{
+			"name": "http://kanye-test.test/api/kanye/quotes",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "1|UiVygY4sW5dOduKgrUV7vh8Tcbc9CQcLndfrH7jfa4f49e75",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "API_TOKEN",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://kanye-test.test/api/kanye/quotes",
+					"protocol": "http",
+					"host": [
+						"kanye-test",
+						"test"
+					],
+					"path": [
+						"api",
+						"kanye",
+						"quotes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://kanye-test.test/api/kanye/refresh",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "1|UiVygY4sW5dOduKgrUV7vh8Tcbc9CQcLndfrH7jfa4f49e75",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "API_TOKEN",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://kanye-test.test/api/kanye/refresh",
+					"protocol": "http",
+					"host": [
+						"kanye-test",
+						"test"
+					],
+					"path": [
+						"api",
+						"kanye",
+						"refresh"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
